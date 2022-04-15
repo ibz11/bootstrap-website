@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Register</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+</head>
+<body>
+  <div  class="pt-5 d-flex justify-content-center">
+    <div style=" border-style:solid; background:url('assets/images/register.jpg');"class="p-5">
+    <form action="/action_page.php">
+        <h1 style="color:white;">Register Form</h1>
+
+        <div class="mb-3 mt-3">
+            <label for="email" class="form-label text-white" style="font-weight:700;">Full Names</label>
+            <input type="email" style="width:20em;"class="form-control" id="email" placeholder="Enter your full names" name="fullnames" required>
+          </div>
+        <div class="mb-3 mt-3">
+          <label for="email" class="form-label text-white" style="font-weight:700;">Email:</label>
+          <input type="email" style="width:20em;"class="form-control" id="email" placeholder="Enter email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label text-white"style="font-weight:700;">Password:</label>
+          <input type="password" style="width:20em;" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+        </div>
+        <div class="mb-3">
+            <label for="pwd" class="form-label text-white"style="font-weight:700;">Confirm Password:</label>
+            <input type="password" style="width:20em;" class="form-control" id="pwd" placeholder="Confirm password" name="confpswd" required>
+          </div>
+        
+        <div class="mb-3">
+            <a href="login.html" style="color:azure;text-decoration:none; font-size:20px;font-weight:800;"><u>Already registered? Login here</u></a>
+        </div>
+        <a href="index.html" class="btn btn-dark" role="button">Home</a>
+        <button type="submit" class="btn btn-outline-light" style="font-weight:800;">Register</button>
+      </form>
+    </div>
+    </div>
+</div>
+</body>
+</html>
